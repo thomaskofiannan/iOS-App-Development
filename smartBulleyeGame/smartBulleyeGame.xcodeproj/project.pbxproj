@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52216A931A4331EA0093FDAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216A921A4331EA0093FDAF /* AppDelegate.swift */; };
+		52216A951A4331EA0093FDAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216A941A4331EA0093FDAF /* ViewController.swift */; };
+		52216A981A4331EA0093FDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52216A961A4331EA0093FDAF /* Main.storyboard */; };
+		52216A9A1A4331EA0093FDAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52216A991A4331EA0093FDAF /* Images.xcassets */; };
+		52216A9D1A4331EA0093FDAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52216A9B1A4331EA0093FDAF /* LaunchScreen.xib */; };
+		52216AA91A4331EA0093FDAF /* smartBulleyeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216AA81A4331EA0093FDAF /* smartBulleyeGameTests.swift */; };
+		52427D431A49C31300D31718 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52427D421A49C31300D31718 /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52216AA31A4331EA0093FDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52216A851A4331EA0093FDAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52216A8C1A4331EA0093FDAF;
+			remoteInfo = smartBulleyeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52216A8D1A4331EA0093FDAF /* smartBulleyeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartBulleyeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52216A911A4331EA0093FDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52216A921A4331EA0093FDAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52216A941A4331EA0093FDAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52216A971A4331EA0093FDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52216A991A4331EA0093FDAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52216A9C1A4331EA0093FDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52216AA21A4331EA0093FDAF /* smartBulleyeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartBulleyeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52216AA71A4331EA0093FDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52216AA81A4331EA0093FDAF /* smartBulleyeGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartBulleyeGameTests.swift; sourceTree = "<group>"; };
+		52427D421A49C31300D31718 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52216A8A1A4331EA0093FDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52216A9F1A4331EA0093FDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52216A841A4331EA0093FDAF = {
+			isa = PBXGroup;
+			children = (
+				52216A8F1A4331EA0093FDAF /* smartBulleyeGame */,
+				52216AA51A4331EA0093FDAF /* smartBulleyeGameTests */,
+				52216A8E1A4331EA0093FDAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52216A8E1A4331EA0093FDAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52216A8D1A4331EA0093FDAF /* smartBulleyeGame.app */,
+				52216AA21A4331EA0093FDAF /* smartBulleyeGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52216A8F1A4331EA0093FDAF /* smartBulleyeGame */ = {
+			isa = PBXGroup;
+			children = (
+				52216A921A4331EA0093FDAF /* AppDelegate.swift */,
+				52216A941A4331EA0093FDAF /* ViewController.swift */,
+				52216A961A4331EA0093FDAF /* Main.storyboard */,
+				52216A991A4331EA0093FDAF /* Images.xcassets */,
+				52216A9B1A4331EA0093FDAF /* LaunchScreen.xib */,
+				52216A901A4331EA0093FDAF /* Supporting Files */,
+				52427D421A49C31300D31718 /* AboutViewController.swift */,
+			);
+			path = smartBulleyeGame;
+			sourceTree = "<group>";
+		};
+		52216A901A4331EA0093FDAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52216A911A4331EA0093FDAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52216AA51A4331EA0093FDAF /* smartBulleyeGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				52216AA81A4331EA0093FDAF /* smartBulleyeGameTests.swift */,
+				52216AA61A4331EA0093FDAF /* Supporting Files */,
+			);
+			path = smartBulleyeGameTests;
+			sourceTree = "<group>";
+		};
+		52216AA61A4331EA0093FDAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52216AA71A4331EA0093FDAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52216A8C1A4331EA0093FDAF /* smartBulleyeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52216AAC1A4331EA0093FDAF /* Build configuration list for PBXNativeTarget "smartBulleyeGame" */;
+			buildPhases = (
+				52216A891A4331EA0093FDAF /* Sources */,
+				52216A8A1A4331EA0093FDAF /* Frameworks */,
+				52216A8B1A4331EA0093FDAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smartBulleyeGame;
+			productName = smartBulleyeGame;
+			productReference = 52216A8D1A4331EA0093FDAF /* smartBulleyeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52216AA11A4331EA0093FDAF /* smartBulleyeGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52216AAF1A4331EA0093FDAF /* Build configuration list for PBXNativeTarget "smartBulleyeGameTests" */;
+			buildPhases = (
+				52216A9E1A4331EA0093FDAF /* Sources */,
+				52216A9F1A4331EA0093FDAF /* Frameworks */,
+				52216AA01A4331EA0093FDAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52216AA41A4331EA0093FDAF /* PBXTargetDependency */,
+			);
+			name = smartBulleyeGameTests;
+			productName = smartBulleyeGameTests;
+			productReference = 52216AA21A4331EA0093FDAF /* smartBulleyeGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52216A851A4331EA0093FDAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = smart;
+				TargetAttributes = {
+					52216A8C1A4331EA0093FDAF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					52216AA11A4331EA0093FDAF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 52216A8C1A4331EA0093FDAF;
+					};
+				};
+			};
+			buildConfigurationList = 52216A881A4331EA0093FDAF /* Build configuration list for PBXProject "smartBulleyeGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52216A841A4331EA0093FDAF;
+			productRefGroup = 52216A8E1A4331EA0093FDAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52216A8C1A4331EA0093FDAF /* smartBulleyeGame */,
+				52216AA11A4331EA0093FDAF /* smartBulleyeGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52216A8B1A4331EA0093FDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52216A981A4331EA0093FDAF /* Main.storyboard in Resources */,
+				52216A9D1A4331EA0093FDAF /* LaunchScreen.xib in Resources */,
+				52216A9A1A4331EA0093FDAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52216AA01A4331EA0093FDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52216A891A4331EA0093FDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52427D431A49C31300D31718 /* AboutViewController.swift in Sources */,
+				52216A951A4331EA0093FDAF /* ViewController.swift in Sources */,
+				52216A931A4331EA0093FDAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52216A9E1A4331EA0093FDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52216AA91A4331EA0093FDAF /* smartBulleyeGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52216AA41A4331EA0093FDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52216A8C1A4331EA0093FDAF /* smartBulleyeGame */;
+			targetProxy = 52216AA31A4331EA0093FDAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52216A961A4331EA0093FDAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52216A971A4331EA0093FDAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52216A9B1A4331EA0093FDAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52216A9C1A4331EA0093FDAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52216AAA1A4331EA0093FDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52216AAB1A4331EA0093FDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52216AAD1A4331EA0093FDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = smartBulleyeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52216AAE1A4331EA0093FDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = smartBulleyeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52216AB01A4331EA0093FDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = smartBulleyeGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartBulleyeGame.app/smartBulleyeGame";
+			};
+			name = Debug;
+		};
+		52216AB11A4331EA0093FDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = smartBulleyeGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartBulleyeGame.app/smartBulleyeGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52216A881A4331EA0093FDAF /* Build configuration list for PBXProject "smartBulleyeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52216AAA1A4331EA0093FDAF /* Debug */,
+				52216AAB1A4331EA0093FDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52216AAC1A4331EA0093FDAF /* Build configuration list for PBXNativeTarget "smartBulleyeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52216AAD1A4331EA0093FDAF /* Debug */,
+				52216AAE1A4331EA0093FDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52216AAF1A4331EA0093FDAF /* Build configuration list for PBXNativeTarget "smartBulleyeGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52216AB01A4331EA0093FDAF /* Debug */,
+				52216AB11A4331EA0093FDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52216A851A4331EA0093FDAF /* Project object */;
+}
