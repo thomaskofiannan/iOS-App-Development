@@ -14,6 +14,7 @@
 		522500271A5EB10900870F17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522500251A5EB10900870F17 /* LaunchScreen.xib */; };
 		522500331A5EB10900870F17 /* playVideoinSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522500321A5EB10900870F17 /* playVideoinSwiftTests.swift */; };
 		5225003D1A5EB27C00870F17 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5225003C1A5EB27C00870F17 /* video.mp4 */; };
+		52E9D6811A6002B800796336 /* Apparent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52E9D6801A6002B800796336 /* Apparent.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		522500311A5EB10900870F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522500321A5EB10900870F17 /* playVideoinSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playVideoinSwiftTests.swift; sourceTree = "<group>"; };
 		5225003C1A5EB27C00870F17 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		52E9D6801A6002B800796336 /* Apparent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Apparent.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		522500191A5EB10900870F17 /* playVideoinSwift */ = {
 			isa = PBXGroup;
 			children = (
+				52E9D6801A6002B800796336 /* Apparent.wav */,
 				5225003C1A5EB27C00870F17 /* video.mp4 */,
 				5225001C1A5EB10900870F17 /* AppDelegate.swift */,
 				5225001E1A5EB10900870F17 /* ViewController.swift */,
@@ -197,6 +200,7 @@
 			files = (
 				522500221A5EB10900870F17 /* Main.storyboard in Resources */,
 				522500271A5EB10900870F17 /* LaunchScreen.xib in Resources */,
+				52E9D6811A6002B800796336 /* Apparent.wav in Resources */,
 				522500241A5EB10900870F17 /* Images.xcassets in Resources */,
 				5225003D1A5EB27C00870F17 /* video.mp4 in Resources */,
 			);
@@ -409,6 +413,7 @@
 				522500381A5EB10900870F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		522500391A5EB10900870F17 /* Build configuration list for PBXNativeTarget "playVideoinSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				5225003B1A5EB10900870F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
