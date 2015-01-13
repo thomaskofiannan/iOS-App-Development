@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     func startPlayingVideo(){
         
         let mainBundle = NSBundle.mainBundle()
-        let url = mainBundle.URLForResource("Apparent", withExtension: "wav")
+        let url = mainBundle.URLForResource("video", withExtension: "mp4")
         
         moviePlayer = MPMoviePlayerController(contentURL: url)
         if let player = moviePlayer{
