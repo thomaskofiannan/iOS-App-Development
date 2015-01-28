@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527D80421A78268900D0D643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80411A78268900D0D643 /* AppDelegate.swift */; };
+		527D80471A78268900D0D643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527D80451A78268900D0D643 /* Main.storyboard */; };
+		527D80491A78268900D0D643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527D80481A78268900D0D643 /* Images.xcassets */; };
+		527D804C1A78268900D0D643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527D804A1A78268900D0D643 /* LaunchScreen.xib */; };
+		527D80581A78268900D0D643 /* Slide_Menu_ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80571A78268900D0D643 /* Slide_Menu_ControllerTests.swift */; };
+		527D80631A7826DE00D0D643 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80621A7826DE00D0D643 /* SlideMenuController.swift */; };
+		527D80661A78282900D0D643 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80651A78282900D0D643 /* AboutUsViewController.swift */; };
+		527D80681A78283D00D0D643 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80671A78283D00D0D643 /* ContactUsViewController.swift */; };
+		527D806A1A78285200D0D643 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80691A78285200D0D643 /* InformationViewController.swift */; };
+		527D806C1A78286C00D0D643 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D806B1A78286C00D0D643 /* SettingViewController.swift */; };
+		527D806E1A78287A00D0D643 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D806D1A78287A00D0D643 /* HomeViewController.swift */; };
+		527D80721A7828B200D0D643 /* LeftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80711A7828B200D0D643 /* LeftTableViewController.swift */; };
+		527D80741A7828C500D0D643 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D80731A7828C500D0D643 /* RightViewController.swift */; };
+		527D80791A782D8600D0D643 /* bg5.png in Resources */ = {isa = PBXBuildFile; fileRef = 527D80761A782D8600D0D643 /* bg5.png */; };
+		527D807A1A782D8600D0D643 /* bg6.png in Resources */ = {isa = PBXBuildFile; fileRef = 527D80771A782D8600D0D643 /* bg6.png */; };
+		527D807B1A782D8600D0D643 /* bg7.png in Resources */ = {isa = PBXBuildFile; fileRef = 527D80781A782D8600D0D643 /* bg7.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527D80521A78268900D0D643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527D80341A78268900D0D643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527D803B1A78268900D0D643;
+			remoteInfo = "Slide Menu Controller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527D803C1A78268900D0D643 /* Slide Menu Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide Menu Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527D80401A78268900D0D643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527D80411A78268900D0D643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527D80461A78268900D0D643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527D80481A78268900D0D643 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		527D804B1A78268900D0D643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		527D80511A78268900D0D643 /* Slide Menu ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slide Menu ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527D80561A78268900D0D643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527D80571A78268900D0D643 /* Slide_Menu_ControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide_Menu_ControllerTests.swift; sourceTree = "<group>"; };
+		527D80621A7826DE00D0D643 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		527D80651A78282900D0D643 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		527D80671A78283D00D0D643 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		527D80691A78285200D0D643 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		527D806B1A78286C00D0D643 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		527D806D1A78287A00D0D643 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		527D80711A7828B200D0D643 /* LeftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTableViewController.swift; sourceTree = "<group>"; };
+		527D80731A7828C500D0D643 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		527D80761A782D8600D0D643 /* bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg5.png; sourceTree = "<group>"; };
+		527D80771A782D8600D0D643 /* bg6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg6.png; sourceTree = "<group>"; };
+		527D80781A782D8600D0D643 /* bg7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg7.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527D80391A78268900D0D643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D804E1A78268900D0D643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527D80331A78268900D0D643 = {
+			isa = PBXGroup;
+			children = (
+				527D803E1A78268900D0D643 /* Slide Menu Controller */,
+				527D80541A78268900D0D643 /* Slide Menu ControllerTests */,
+				527D803D1A78268900D0D643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527D803D1A78268900D0D643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527D803C1A78268900D0D643 /* Slide Menu Controller.app */,
+				527D80511A78268900D0D643 /* Slide Menu ControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527D803E1A78268900D0D643 /* Slide Menu Controller */ = {
+			isa = PBXGroup;
+			children = (
+				527D80751A782D7800D0D643 /* image */,
+				527D80411A78268900D0D643 /* AppDelegate.swift */,
+				527D80701A78289C00D0D643 /* Right */,
+				527D806F1A78289300D0D643 /* Left */,
+				527D80641A78280C00D0D643 /* Menu */,
+				527D80611A7826DE00D0D643 /* Source */,
+				527D80451A78268900D0D643 /* Main.storyboard */,
+				527D80481A78268900D0D643 /* Images.xcassets */,
+				527D804A1A78268900D0D643 /* LaunchScreen.xib */,
+				527D803F1A78268900D0D643 /* Supporting Files */,
+			);
+			path = "Slide Menu Controller";
+			sourceTree = "<group>";
+		};
+		527D803F1A78268900D0D643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527D80401A78268900D0D643 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		527D80541A78268900D0D643 /* Slide Menu ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				527D80571A78268900D0D643 /* Slide_Menu_ControllerTests.swift */,
+				527D80551A78268900D0D643 /* Supporting Files */,
+			);
+			path = "Slide Menu ControllerTests";
+			sourceTree = "<group>";
+		};
+		527D80551A78268900D0D643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527D80561A78268900D0D643 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		527D80611A7826DE00D0D643 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				527D80621A7826DE00D0D643 /* SlideMenuController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		527D80641A78280C00D0D643 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				527D80651A78282900D0D643 /* AboutUsViewController.swift */,
+				527D80671A78283D00D0D643 /* ContactUsViewController.swift */,
+				527D80691A78285200D0D643 /* InformationViewController.swift */,
+				527D806B1A78286C00D0D643 /* SettingViewController.swift */,
+				527D806D1A78287A00D0D643 /* HomeViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		527D806F1A78289300D0D643 /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				527D80711A7828B200D0D643 /* LeftTableViewController.swift */,
+			);
+			name = Left;
+			sourceTree = "<group>";
+		};
+		527D80701A78289C00D0D643 /* Right */ = {
+			isa = PBXGroup;
+			children = (
+				527D80731A7828C500D0D643 /* RightViewController.swift */,
+			);
+			name = Right;
+			sourceTree = "<group>";
+		};
+		527D80751A782D7800D0D643 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				527D80761A782D8600D0D643 /* bg5.png */,
+				527D80771A782D8600D0D643 /* bg6.png */,
+				527D80781A782D8600D0D643 /* bg7.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527D803B1A78268900D0D643 /* Slide Menu Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527D805B1A78268900D0D643 /* Build configuration list for PBXNativeTarget "Slide Menu Controller" */;
+			buildPhases = (
+				527D80381A78268900D0D643 /* Sources */,
+				527D80391A78268900D0D643 /* Frameworks */,
+				527D803A1A78268900D0D643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slide Menu Controller";
+			productName = "Slide Menu Controller";
+			productReference = 527D803C1A78268900D0D643 /* Slide Menu Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527D80501A78268900D0D643 /* Slide Menu ControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527D805E1A78268900D0D643 /* Build configuration list for PBXNativeTarget "Slide Menu ControllerTests" */;
+			buildPhases = (
+				527D804D1A78268900D0D643 /* Sources */,
+				527D804E1A78268900D0D643 /* Frameworks */,
+				527D804F1A78268900D0D643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527D80531A78268900D0D643 /* PBXTargetDependency */,
+			);
+			name = "Slide Menu ControllerTests";
+			productName = "Slide Menu ControllerTests";
+			productReference = 527D80511A78268900D0D643 /* Slide Menu ControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527D80341A78268900D0D643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Smart HRD";
+				TargetAttributes = {
+					527D803B1A78268900D0D643 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					527D80501A78268900D0D643 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 527D803B1A78268900D0D643;
+					};
+				};
+			};
+			buildConfigurationList = 527D80371A78268900D0D643 /* Build configuration list for PBXProject "Slide Menu Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527D80331A78268900D0D643;
+			productRefGroup = 527D803D1A78268900D0D643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527D803B1A78268900D0D643 /* Slide Menu Controller */,
+				527D80501A78268900D0D643 /* Slide Menu ControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527D803A1A78268900D0D643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D807B1A782D8600D0D643 /* bg7.png in Resources */,
+				527D80791A782D8600D0D643 /* bg5.png in Resources */,
+				527D80471A78268900D0D643 /* Main.storyboard in Resources */,
+				527D804C1A78268900D0D643 /* LaunchScreen.xib in Resources */,
+				527D80491A78268900D0D643 /* Images.xcassets in Resources */,
+				527D807A1A782D8600D0D643 /* bg6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D804F1A78268900D0D643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527D80381A78268900D0D643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D80661A78282900D0D643 /* AboutUsViewController.swift in Sources */,
+				527D80681A78283D00D0D643 /* ContactUsViewController.swift in Sources */,
+				527D80721A7828B200D0D643 /* LeftTableViewController.swift in Sources */,
+				527D80631A7826DE00D0D643 /* SlideMenuController.swift in Sources */,
+				527D80421A78268900D0D643 /* AppDelegate.swift in Sources */,
+				527D806A1A78285200D0D643 /* InformationViewController.swift in Sources */,
+				527D806E1A78287A00D0D643 /* HomeViewController.swift in Sources */,
+				527D806C1A78286C00D0D643 /* SettingViewController.swift in Sources */,
+				527D80741A7828C500D0D643 /* RightViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D804D1A78268900D0D643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D80581A78268900D0D643 /* Slide_Menu_ControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527D80531A78268900D0D643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527D803B1A78268900D0D643 /* Slide Menu Controller */;
+			targetProxy = 527D80521A78268900D0D643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527D80451A78268900D0D643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527D80461A78268900D0D643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527D804A1A78268900D0D643 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527D804B1A78268900D0D643 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527D80591A78268900D0D643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527D805A1A78268900D0D643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527D805C1A78268900D0D643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slide Menu Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		527D805D1A78268900D0D643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slide Menu Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		527D805F1A78268900D0D643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Slide Menu ControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide Menu Controller.app/Slide Menu Controller";
+			};
+			name = Debug;
+		};
+		527D80601A78268900D0D643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Slide Menu ControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide Menu Controller.app/Slide Menu Controller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527D80371A78268900D0D643 /* Build configuration list for PBXProject "Slide Menu Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527D80591A78268900D0D643 /* Debug */,
+				527D805A1A78268900D0D643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527D805B1A78268900D0D643 /* Build configuration list for PBXNativeTarget "Slide Menu Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527D805C1A78268900D0D643 /* Debug */,
+				527D805D1A78268900D0D643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		527D805E1A78268900D0D643 /* Build configuration list for PBXNativeTarget "Slide Menu ControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527D805F1A78268900D0D643 /* Debug */,
+				527D80601A78268900D0D643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527D80341A78268900D0D643 /* Project object */;
+}

@@ -15,9 +15,11 @@ class ViewFromProgramViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        var firstBtn = UIButton(frame: CGRectMake(0, 0, 100, 40))
+        var firstBtn = UIButton(frame: CGRectMake(100, 100, 100, 40))
         firstBtn.backgroundColor = UIColor.brownColor()
         firstBtn.setTitle("Ok", forState: UIControlState.Normal)
+        
+        view.addSubview(firstBtn)
         
         
     }

@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520768511A655FDC00400BF2 /* ReadPdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520768501A655FDC00400BF2 /* ReadPdfViewController.swift */; };
+		520768561A656F1300400BF2 /* openPDFinIbooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520768551A656F1300400BF2 /* openPDFinIbooksViewController.swift */; };
 		52196CEF1A64F45700465507 /* ViewFromProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52196CEE1A64F45700465507 /* ViewFromProgramViewController.swift */; };
 		521E2B391A6450650041A9D6 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 521E2B381A6450650041A9D6 /* video.mp4 */; };
 		521E2B3C1A64571A0041A9D6 /* AutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E2B3B1A64571A0041A9D6 /* AutolayoutViewController.swift */; };
+		521E2CEA1A67062600FDFDA5 /* UploadImageToPhpServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E2CE91A67062600FDFDA5 /* UploadImageToPhpServerViewController.swift */; };
+		5231C6021A6BFF0900BA0596 /* UploadPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231C6011A6BFF0900BA0596 /* UploadPhoto.m */; };
+		5231C6051A6C086D00BA0596 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231C6041A6C086D00BA0596 /* SwiftyJSON.swift */; };
+		52AADBDC1A767E530085FF3B /* temp_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 52AADBDB1A767E530085FF3B /* temp_img.png */; };
+		52BB57A31A6B8EBB0044BAE3 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB57911A6B8EBB0044BAE3 /* AFHTTPRequestOperation.m */; };
+		52BB57A41A6B8EBB0044BAE3 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB57931A6B8EBB0044BAE3 /* AFHTTPRequestOperationManager.m */; };
+		52BB57A51A6B8EBB0044BAE3 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB57951A6B8EBB0044BAE3 /* AFHTTPSessionManager.m */; };
+		52BB57A61A6B8EBB0044BAE3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB57981A6B8EBB0044BAE3 /* AFNetworkReachabilityManager.m */; };
+		52BB57A71A6B8EBB0044BAE3 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB579A1A6B8EBB0044BAE3 /* AFSecurityPolicy.m */; };
+		52BB57A81A6B8EBB0044BAE3 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB579C1A6B8EBB0044BAE3 /* AFURLConnectionOperation.m */; };
+		52BB57A91A6B8EBB0044BAE3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB579E1A6B8EBB0044BAE3 /* AFURLRequestSerialization.m */; };
+		52BB57AA1A6B8EBB0044BAE3 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB57A01A6B8EBB0044BAE3 /* AFURLResponseSerialization.m */; };
+		52BB57AB1A6B8EBB0044BAE3 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB57A21A6B8EBB0044BAE3 /* AFURLSessionManager.m */; };
+		52D86D221A75621700EA5D2F /* SendSmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D86D211A75621700EA5D2F /* SendSmsViewController.swift */; };
 		52ECD7AA1A644B8E0069A4C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ECD7A91A644B8E0069A4C5 /* AppDelegate.swift */; };
 		52ECD7AC1A644B8E0069A4C5 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ECD7AB1A644B8E0069A4C5 /* PlayVideoViewController.swift */; };
-		52ECD7AF1A644B8E0069A4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ECD7AD1A644B8E0069A4C5 /* Main.storyboard */; };
 		52ECD7B11A644B8E0069A4C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ECD7B01A644B8E0069A4C5 /* Images.xcassets */; };
 		52ECD7C01A644B8E0069A4C5 /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ECD7BF1A644B8E0069A4C5 /* DemoAppTests.swift */; };
+		52ED79541A6AE93F00B2A030 /* book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52ED79531A6AE93F00B2A030 /* book.pdf */; };
+		52F0B0741A6A8320000B8C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ECD7AD1A644B8E0069A4C5 /* Main.storyboard */; };
+		52F622FE1A6D79B300BD10E4 /* bg-blue-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F622FB1A6D79B300BD10E4 /* bg-blue-light.png */; };
+		52F622FF1A6D79B300BD10E4 /* bg-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F622FC1A6D79B300BD10E4 /* bg-white.png */; };
+		52F623001A6D79B300BD10E4 /* nature_pic_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F622FD1A6D79B300BD10E4 /* nature_pic_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +48,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520768501A655FDC00400BF2 /* ReadPdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadPdfViewController.swift; sourceTree = "<group>"; };
+		520768551A656F1300400BF2 /* openPDFinIbooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = openPDFinIbooksViewController.swift; sourceTree = "<group>"; };
+		520768581A65792700400BF2 /* DemoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		52196CEE1A64F45700465507 /* ViewFromProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFromProgramViewController.swift; sourceTree = "<group>"; };
 		521E2B381A6450650041A9D6 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		521E2B3B1A64571A0041A9D6 /* AutolayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutViewController.swift; sourceTree = "<group>"; };
+		521E2CE91A67062600FDFDA5 /* UploadImageToPhpServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageToPhpServerViewController.swift; sourceTree = "<group>"; };
+		5231C6001A6BFF0900BA0596 /* UploadPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadPhoto.h; sourceTree = "<group>"; };
+		5231C6011A6BFF0900BA0596 /* UploadPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadPhoto.m; sourceTree = "<group>"; };
+		5231C6031A6C086C00BA0596 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		5231C6041A6C086D00BA0596 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		52AADBDB1A767E530085FF3B /* temp_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp_img.png; sourceTree = "<group>"; };
+		52BB57901A6B8EBB0044BAE3 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		52BB57911A6B8EBB0044BAE3 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		52BB57921A6B8EBB0044BAE3 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		52BB57931A6B8EBB0044BAE3 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		52BB57941A6B8EBB0044BAE3 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		52BB57951A6B8EBB0044BAE3 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		52BB57961A6B8EBB0044BAE3 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		52BB57971A6B8EBB0044BAE3 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		52BB57981A6B8EBB0044BAE3 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		52BB57991A6B8EBB0044BAE3 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		52BB579A1A6B8EBB0044BAE3 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		52BB579B1A6B8EBB0044BAE3 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		52BB579C1A6B8EBB0044BAE3 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		52BB579D1A6B8EBB0044BAE3 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		52BB579E1A6B8EBB0044BAE3 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		52BB579F1A6B8EBB0044BAE3 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		52BB57A01A6B8EBB0044BAE3 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		52BB57A11A6B8EBB0044BAE3 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		52BB57A21A6B8EBB0044BAE3 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		52D86D211A75621700EA5D2F /* SendSmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendSmsViewController.swift; sourceTree = "<group>"; };
 		52ECD7A41A644B8E0069A4C5 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ECD7A81A644B8E0069A4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52ECD7A91A644B8E0069A4C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +89,10 @@
 		52ECD7B91A644B8E0069A4C5 /* DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ECD7BE1A644B8E0069A4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52ECD7BF1A644B8E0069A4C5 /* DemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppTests.swift; sourceTree = "<group>"; };
+		52ED79531A6AE93F00B2A030 /* book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = book.pdf; sourceTree = "<group>"; };
+		52F622FB1A6D79B300BD10E4 /* bg-blue-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-blue-light.png"; sourceTree = "<group>"; };
+		52F622FC1A6D79B300BD10E4 /* bg-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-white.png"; sourceTree = "<group>"; };
+		52F622FD1A6D79B300BD10E4 /* nature_pic_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature_pic_1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +113,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		520768211A655C8300400BF2 /* ReadPdfFile */ = {
+			isa = PBXGroup;
+			children = (
+				52ED79531A6AE93F00B2A030 /* book.pdf */,
+				520768501A655FDC00400BF2 /* ReadPdfViewController.swift */,
+			);
+			name = ReadPdfFile;
+			sourceTree = "<group>";
+		};
+		520768541A656EB600400BF2 /* Open PDF in iBooks */ = {
+			isa = PBXGroup;
+			children = (
+				520768551A656F1300400BF2 /* openPDFinIbooksViewController.swift */,
+			);
+			name = "Open PDF in iBooks";
+			sourceTree = "<group>";
+		};
+		520768571A6578FE00400BF2 /* objectIveC */ = {
+			isa = PBXGroup;
+			children = (
+				5231C5FF1A6BFEE100BA0596 /* upload-photo */,
+				52BB578F1A6B8EBB0044BAE3 /* AFNetworking */,
+				520768581A65792700400BF2 /* DemoApp-Bridging-Header.h */,
+			);
+			name = objectIveC;
+			sourceTree = "<group>";
+		};
 		52196CED1A64F43500465507 /* ViewByProgram */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +154,60 @@
 				521E2B3B1A64571A0041A9D6 /* AutolayoutViewController.swift */,
 			);
 			name = "Button-AutoLayout";
+			sourceTree = "<group>";
+		};
+		521E2CE81A67060400FDFDA5 /* UploadImageToPhpServer */ = {
+			isa = PBXGroup;
+			children = (
+				5231C6031A6C086C00BA0596 /* SwiftyJSON.h */,
+				5231C6041A6C086D00BA0596 /* SwiftyJSON.swift */,
+				521E2CE91A67062600FDFDA5 /* UploadImageToPhpServerViewController.swift */,
+			);
+			name = UploadImageToPhpServer;
+			sourceTree = "<group>";
+		};
+		5231C5FF1A6BFEE100BA0596 /* upload-photo */ = {
+			isa = PBXGroup;
+			children = (
+				5231C6001A6BFF0900BA0596 /* UploadPhoto.h */,
+				5231C6011A6BFF0900BA0596 /* UploadPhoto.m */,
+			);
+			name = "upload-photo";
+			sourceTree = "<group>";
+		};
+		52BB578F1A6B8EBB0044BAE3 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				52BB57901A6B8EBB0044BAE3 /* AFHTTPRequestOperation.h */,
+				52BB57911A6B8EBB0044BAE3 /* AFHTTPRequestOperation.m */,
+				52BB57921A6B8EBB0044BAE3 /* AFHTTPRequestOperationManager.h */,
+				52BB57931A6B8EBB0044BAE3 /* AFHTTPRequestOperationManager.m */,
+				52BB57941A6B8EBB0044BAE3 /* AFHTTPSessionManager.h */,
+				52BB57951A6B8EBB0044BAE3 /* AFHTTPSessionManager.m */,
+				52BB57961A6B8EBB0044BAE3 /* AFNetworking.h */,
+				52BB57971A6B8EBB0044BAE3 /* AFNetworkReachabilityManager.h */,
+				52BB57981A6B8EBB0044BAE3 /* AFNetworkReachabilityManager.m */,
+				52BB57991A6B8EBB0044BAE3 /* AFSecurityPolicy.h */,
+				52BB579A1A6B8EBB0044BAE3 /* AFSecurityPolicy.m */,
+				52BB579B1A6B8EBB0044BAE3 /* AFURLConnectionOperation.h */,
+				52BB579C1A6B8EBB0044BAE3 /* AFURLConnectionOperation.m */,
+				52BB579D1A6B8EBB0044BAE3 /* AFURLRequestSerialization.h */,
+				52BB579E1A6B8EBB0044BAE3 /* AFURLRequestSerialization.m */,
+				52BB579F1A6B8EBB0044BAE3 /* AFURLResponseSerialization.h */,
+				52BB57A01A6B8EBB0044BAE3 /* AFURLResponseSerialization.m */,
+				52BB57A11A6B8EBB0044BAE3 /* AFURLSessionManager.h */,
+				52BB57A21A6B8EBB0044BAE3 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		52D86D201A7561FF00EA5D2F /* SendSms */ = {
+			isa = PBXGroup;
+			children = (
+				52AADBDB1A767E530085FF3B /* temp_img.png */,
+				52D86D211A75621700EA5D2F /* SendSmsViewController.swift */,
+			);
+			name = SendSms;
 			sourceTree = "<group>";
 		};
 		52ECD79B1A644B8E0069A4C5 = {
@@ -97,6 +231,12 @@
 		52ECD7A61A644B8E0069A4C5 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				52D86D201A7561FF00EA5D2F /* SendSms */,
+				52F622FA1A6D798700BD10E4 /* File */,
+				521E2CE81A67060400FDFDA5 /* UploadImageToPhpServer */,
+				520768571A6578FE00400BF2 /* objectIveC */,
+				520768541A656EB600400BF2 /* Open PDF in iBooks */,
+				520768211A655C8300400BF2 /* ReadPdfFile */,
 				52196CED1A64F43500465507 /* ViewByProgram */,
 				521E2B3A1A6453390041A9D6 /* Button-AutoLayout */,
 				52ECD7CA1A644F850069A4C5 /* Appdelegate */,
@@ -154,6 +294,16 @@
 			isa = PBXGroup;
 			children = (
 				521E2B381A6450650041A9D6 /* video.mp4 */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		52F622FA1A6D798700BD10E4 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				52F622FB1A6D79B300BD10E4 /* bg-blue-light.png */,
+				52F622FC1A6D79B300BD10E4 /* bg-white.png */,
+				52F622FD1A6D79B300BD10E4 /* nature_pic_1.jpg */,
 			);
 			name = File;
 			sourceTree = "<group>";
@@ -238,9 +388,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52ECD7AF1A644B8E0069A4C5 /* Main.storyboard in Resources */,
+				52F622FF1A6D79B300BD10E4 /* bg-white.png in Resources */,
+				52AADBDC1A767E530085FF3B /* temp_img.png in Resources */,
+				52F0B0741A6A8320000B8C21 /* Main.storyboard in Resources */,
+				52F622FE1A6D79B300BD10E4 /* bg-blue-light.png in Resources */,
 				521E2B391A6450650041A9D6 /* video.mp4 in Resources */,
+				52F623001A6D79B300BD10E4 /* nature_pic_1.jpg in Resources */,
 				52ECD7B11A644B8E0069A4C5 /* Images.xcassets in Resources */,
+				52ED79541A6AE93F00B2A030 /* book.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +413,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BB57A81A6B8EBB0044BAE3 /* AFURLConnectionOperation.m in Sources */,
 				52196CEF1A64F45700465507 /* ViewFromProgramViewController.swift in Sources */,
+				520768511A655FDC00400BF2 /* ReadPdfViewController.swift in Sources */,
 				521E2B3C1A64571A0041A9D6 /* AutolayoutViewController.swift in Sources */,
+				52BB57AA1A6B8EBB0044BAE3 /* AFURLResponseSerialization.m in Sources */,
 				52ECD7AC1A644B8E0069A4C5 /* PlayVideoViewController.swift in Sources */,
+				52BB57A91A6B8EBB0044BAE3 /* AFURLRequestSerialization.m in Sources */,
+				5231C6021A6BFF0900BA0596 /* UploadPhoto.m in Sources */,
+				52BB57A71A6B8EBB0044BAE3 /* AFSecurityPolicy.m in Sources */,
+				52BB57A31A6B8EBB0044BAE3 /* AFHTTPRequestOperation.m in Sources */,
+				52BB57AB1A6B8EBB0044BAE3 /* AFURLSessionManager.m in Sources */,
 				52ECD7AA1A644B8E0069A4C5 /* AppDelegate.swift in Sources */,
+				520768561A656F1300400BF2 /* openPDFinIbooksViewController.swift in Sources */,
+				52BB57A51A6B8EBB0044BAE3 /* AFHTTPSessionManager.m in Sources */,
+				52D86D221A75621700EA5D2F /* SendSmsViewController.swift in Sources */,
+				521E2CEA1A67062600FDFDA5 /* UploadImageToPhpServerViewController.swift in Sources */,
+				5231C6051A6C086D00BA0596 /* SwiftyJSON.swift in Sources */,
+				52BB57A61A6B8EBB0044BAE3 /* AFNetworkReachabilityManager.m in Sources */,
+				52BB57A41A6B8EBB0044BAE3 /* AFHTTPRequestOperationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +548,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Abdulrahman Alkandari (A8359STAPT)";
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -389,10 +562,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Abdulrahman Alkandari (A8359STAPT)";
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
