@@ -9,18 +9,15 @@
 import UIKit
 
 class ViewFromProgramViewController: UIViewController {
+    
+    
+    @IBOutlet weak var testBtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         
-        var firstBtn = UIButton(frame: CGRectMake(100, 100, 100, 40))
-        firstBtn.backgroundColor = UIColor.brownColor()
-        firstBtn.setTitle("Ok", forState: UIControlState.Normal)
-        
-        view.addSubview(firstBtn)
-        
+        testBtn.frame = CGRectMake(0, 0, 200, 10)
         
     }
 

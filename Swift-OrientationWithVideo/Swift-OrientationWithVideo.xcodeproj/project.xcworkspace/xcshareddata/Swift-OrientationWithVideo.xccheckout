@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9A28738A-A87B-4BA6-A7D7-CCAE08D5D584</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swift-OrientationWithVideo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8E1F108B8754A3728BC6E9CFEDAAF0577BA2954F</key>
+		<string>https://github.com/Rohim-dev/iOS-App-Development.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift-OrientationWithVideo/Swift-OrientationWithVideo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8E1F108B8754A3728BC6E9CFEDAAF0577BA2954F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Rohim-dev/iOS-App-Development.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8E1F108B8754A3728BC6E9CFEDAAF0577BA2954F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8E1F108B8754A3728BC6E9CFEDAAF0577BA2954F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GitHub</string>
+		</dict>
+	</array>
+</dict>
+</plist>

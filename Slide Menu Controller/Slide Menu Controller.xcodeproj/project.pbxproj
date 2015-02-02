@@ -23,6 +23,7 @@
 		527D80791A782D8600D0D643 /* bg5.png in Resources */ = {isa = PBXBuildFile; fileRef = 527D80761A782D8600D0D643 /* bg5.png */; };
 		527D807A1A782D8600D0D643 /* bg6.png in Resources */ = {isa = PBXBuildFile; fileRef = 527D80771A782D8600D0D643 /* bg6.png */; };
 		527D807B1A782D8600D0D643 /* bg7.png in Resources */ = {isa = PBXBuildFile; fileRef = 527D80781A782D8600D0D643 /* bg7.png */; };
+		52EA462E1A7A14C200372C18 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EA462D1A7A14C200372C18 /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		527D80761A782D8600D0D643 /* bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg5.png; sourceTree = "<group>"; };
 		527D80771A782D8600D0D643 /* bg6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg6.png; sourceTree = "<group>"; };
 		527D80781A782D8600D0D643 /* bg7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg7.png; sourceTree = "<group>"; };
+		52EA462D1A7A14C200372C18 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		527D80751A782D7800D0D643 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				52EA462D1A7A14C200372C18 /* button.png */,
 				527D80761A782D8600D0D643 /* bg5.png */,
 				527D80771A782D8600D0D643 /* bg6.png */,
 				527D80781A782D8600D0D643 /* bg7.png */,
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EA462E1A7A14C200372C18 /* button.png in Resources */,
 				527D807B1A782D8600D0D643 /* bg7.png in Resources */,
 				527D80791A782D8600D0D643 /* bg5.png in Resources */,
 				527D80471A78268900D0D643 /* Main.storyboard in Resources */,
@@ -485,6 +489,7 @@
 				527D805D1A78268900D0D643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527D805E1A78268900D0D643 /* Build configuration list for PBXNativeTarget "Slide Menu ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				527D80601A78268900D0D643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

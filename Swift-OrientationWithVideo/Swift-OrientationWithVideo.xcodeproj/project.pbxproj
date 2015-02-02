@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		529090801A7F6A9B00094FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290907F1A7F6A9B00094FF3 /* AppDelegate.swift */; };
+		529090821A7F6A9B00094FF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529090811A7F6A9B00094FF3 /* ViewController.swift */; };
+		529090851A7F6A9B00094FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529090831A7F6A9B00094FF3 /* Main.storyboard */; };
+		529090871A7F6A9B00094FF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529090861A7F6A9B00094FF3 /* Images.xcassets */; };
+		5290908A1A7F6A9B00094FF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529090881A7F6A9B00094FF3 /* LaunchScreen.xib */; };
+		529090961A7F6A9B00094FF3 /* Swift_OrientationWithVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529090951A7F6A9B00094FF3 /* Swift_OrientationWithVideoTests.swift */; };
+		529090A01A7F6C7400094FF3 /* FirstSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290909F1A7F6C7400094FF3 /* FirstSubViewController.swift */; };
+		529090A21A7F6CE300094FF3 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 529090A11A7F6CE300094FF3 /* video.mp4 */; };
+		529090A41A7F6D6000094FF3 /* SecondSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529090A31A7F6D6000094FF3 /* SecondSubViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		529090901A7F6A9B00094FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 529090721A7F6A9B00094FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 529090791A7F6A9B00094FF3;
+			remoteInfo = "Swift-OrientationWithVideo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5290907A1A7F6A9B00094FF3 /* Swift-OrientationWithVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-OrientationWithVideo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5290907E1A7F6A9B00094FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5290907F1A7F6A9B00094FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529090811A7F6A9B00094FF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		529090841A7F6A9B00094FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529090861A7F6A9B00094FF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		529090891A7F6A9B00094FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5290908F1A7F6A9B00094FF3 /* Swift-OrientationWithVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-OrientationWithVideoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		529090941A7F6A9B00094FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529090951A7F6A9B00094FF3 /* Swift_OrientationWithVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_OrientationWithVideoTests.swift; sourceTree = "<group>"; };
+		5290909F1A7F6C7400094FF3 /* FirstSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSubViewController.swift; sourceTree = "<group>"; };
+		529090A11A7F6CE300094FF3 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		529090A31A7F6D6000094FF3 /* SecondSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSubViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529090771A7F6A9B00094FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5290908C1A7F6A9B00094FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		529090711A7F6A9B00094FF3 = {
+			isa = PBXGroup;
+			children = (
+				5290907C1A7F6A9B00094FF3 /* Swift-OrientationWithVideo */,
+				529090921A7F6A9B00094FF3 /* Swift-OrientationWithVideoTests */,
+				5290907B1A7F6A9B00094FF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5290907B1A7F6A9B00094FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5290907A1A7F6A9B00094FF3 /* Swift-OrientationWithVideo.app */,
+				5290908F1A7F6A9B00094FF3 /* Swift-OrientationWithVideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5290907C1A7F6A9B00094FF3 /* Swift-OrientationWithVideo */ = {
+			isa = PBXGroup;
+			children = (
+				529090A11A7F6CE300094FF3 /* video.mp4 */,
+				5290907F1A7F6A9B00094FF3 /* AppDelegate.swift */,
+				529090811A7F6A9B00094FF3 /* ViewController.swift */,
+				529090831A7F6A9B00094FF3 /* Main.storyboard */,
+				529090861A7F6A9B00094FF3 /* Images.xcassets */,
+				529090881A7F6A9B00094FF3 /* LaunchScreen.xib */,
+				5290907D1A7F6A9B00094FF3 /* Supporting Files */,
+				5290909F1A7F6C7400094FF3 /* FirstSubViewController.swift */,
+				529090A31A7F6D6000094FF3 /* SecondSubViewController.swift */,
+			);
+			path = "Swift-OrientationWithVideo";
+			sourceTree = "<group>";
+		};
+		5290907D1A7F6A9B00094FF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5290907E1A7F6A9B00094FF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		529090921A7F6A9B00094FF3 /* Swift-OrientationWithVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				529090951A7F6A9B00094FF3 /* Swift_OrientationWithVideoTests.swift */,
+				529090931A7F6A9B00094FF3 /* Supporting Files */,
+			);
+			path = "Swift-OrientationWithVideoTests";
+			sourceTree = "<group>";
+		};
+		529090931A7F6A9B00094FF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				529090941A7F6A9B00094FF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529090791A7F6A9B00094FF3 /* Swift-OrientationWithVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529090991A7F6A9B00094FF3 /* Build configuration list for PBXNativeTarget "Swift-OrientationWithVideo" */;
+			buildPhases = (
+				529090761A7F6A9B00094FF3 /* Sources */,
+				529090771A7F6A9B00094FF3 /* Frameworks */,
+				529090781A7F6A9B00094FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-OrientationWithVideo";
+			productName = "Swift-OrientationWithVideo";
+			productReference = 5290907A1A7F6A9B00094FF3 /* Swift-OrientationWithVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5290908E1A7F6A9B00094FF3 /* Swift-OrientationWithVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5290909C1A7F6A9B00094FF3 /* Build configuration list for PBXNativeTarget "Swift-OrientationWithVideoTests" */;
+			buildPhases = (
+				5290908B1A7F6A9B00094FF3 /* Sources */,
+				5290908C1A7F6A9B00094FF3 /* Frameworks */,
+				5290908D1A7F6A9B00094FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529090911A7F6A9B00094FF3 /* PBXTargetDependency */,
+			);
+			name = "Swift-OrientationWithVideoTests";
+			productName = "Swift-OrientationWithVideoTests";
+			productReference = 5290908F1A7F6A9B00094FF3 /* Swift-OrientationWithVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529090721A7F6A9B00094FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Smart HRD";
+				TargetAttributes = {
+					529090791A7F6A9B00094FF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5290908E1A7F6A9B00094FF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 529090791A7F6A9B00094FF3;
+					};
+				};
+			};
+			buildConfigurationList = 529090751A7F6A9B00094FF3 /* Build configuration list for PBXProject "Swift-OrientationWithVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529090711A7F6A9B00094FF3;
+			productRefGroup = 5290907B1A7F6A9B00094FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529090791A7F6A9B00094FF3 /* Swift-OrientationWithVideo */,
+				5290908E1A7F6A9B00094FF3 /* Swift-OrientationWithVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529090781A7F6A9B00094FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529090851A7F6A9B00094FF3 /* Main.storyboard in Resources */,
+				5290908A1A7F6A9B00094FF3 /* LaunchScreen.xib in Resources */,
+				529090871A7F6A9B00094FF3 /* Images.xcassets in Resources */,
+				529090A21A7F6CE300094FF3 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5290908D1A7F6A9B00094FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529090761A7F6A9B00094FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529090821A7F6A9B00094FF3 /* ViewController.swift in Sources */,
+				529090A41A7F6D6000094FF3 /* SecondSubViewController.swift in Sources */,
+				529090801A7F6A9B00094FF3 /* AppDelegate.swift in Sources */,
+				529090A01A7F6C7400094FF3 /* FirstSubViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5290908B1A7F6A9B00094FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529090961A7F6A9B00094FF3 /* Swift_OrientationWithVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529090911A7F6A9B00094FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 529090791A7F6A9B00094FF3 /* Swift-OrientationWithVideo */;
+			targetProxy = 529090901A7F6A9B00094FF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		529090831A7F6A9B00094FF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529090841A7F6A9B00094FF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		529090881A7F6A9B00094FF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529090891A7F6A9B00094FF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529090971A7F6A9B00094FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		529090981A7F6A9B00094FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5290909A1A7F6A9B00094FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Swift-OrientationWithVideo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5290909B1A7F6A9B00094FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Swift-OrientationWithVideo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5290909D1A7F6A9B00094FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-OrientationWithVideoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-OrientationWithVideo.app/Swift-OrientationWithVideo";
+			};
+			name = Debug;
+		};
+		5290909E1A7F6A9B00094FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-OrientationWithVideoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-OrientationWithVideo.app/Swift-OrientationWithVideo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529090751A7F6A9B00094FF3 /* Build configuration list for PBXProject "Swift-OrientationWithVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529090971A7F6A9B00094FF3 /* Debug */,
+				529090981A7F6A9B00094FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529090991A7F6A9B00094FF3 /* Build configuration list for PBXNativeTarget "Swift-OrientationWithVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5290909A1A7F6A9B00094FF3 /* Debug */,
+				5290909B1A7F6A9B00094FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5290909C1A7F6A9B00094FF3 /* Build configuration list for PBXNativeTarget "Swift-OrientationWithVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5290909D1A7F6A9B00094FF3 /* Debug */,
+				5290909E1A7F6A9B00094FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529090721A7F6A9B00094FF3 /* Project object */;
+}

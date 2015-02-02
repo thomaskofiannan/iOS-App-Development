@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xx3-IP-Q9v">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="uqr-0d-Rf2">
+            <objects>
+                <tableViewController id="4eX-fB-ADB" customClass="LessonTableViewController" customModule="SearchbarWithScope" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="VGi-xE-RAj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Enter here to search" showsCancelButton="YES" showsScopeBar="YES" id="IqW-eh-bIT">
+                            <rect key="frame" x="0.0" y="64" width="320" height="88"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>All</string>
+                                <string>Chapter1</string>
+                                <string>Chapter2</string>
+                                <string>Chapter3</string>
+                                <string>Chapter4</string>
+                            </scopeButtonTitles>
+                            <connections>
+                                <outlet property="delegate" destination="4eX-fB-ADB" id="Heb-Sg-9o4"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="rws-cM-TSz">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rws-cM-TSz" id="6Jh-qv-6e7">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4eX-fB-ADB" id="6ak-mp-YWI"/>
+                            <outlet property="delegate" destination="4eX-fB-ADB" id="eL4-bM-KKA"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="B19-VI-2p9"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="fm8-84-FCz" id="d67-53-iQu"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="63w-VT-SN0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="fm8-84-FCz">
+                    <connections>
+                        <outlet property="delegate" destination="4eX-fB-ADB" id="cbz-O0-drf"/>
+                        <outlet property="searchBar" destination="IqW-eh-bIT" id="mKn-hB-FJb"/>
+                        <outlet property="searchContentsController" destination="4eX-fB-ADB" id="BX3-Iz-J8M"/>
+                        <outlet property="searchResultsDataSource" destination="4eX-fB-ADB" id="u8a-oR-hRV"/>
+                        <outlet property="searchResultsDelegate" destination="4eX-fB-ADB" id="jdB-Ru-2Ng"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="237" y="86"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rFr-mI-Op1">
+            <objects>
+                <navigationController id="Xx3-IP-Q9v" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CEn-II-VoA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4eX-fB-ADB" kind="relationship" relationship="rootViewController" id="V3E-ze-w0D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FC2-sJ-8py" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-190" y="76"/>
+        </scene>
+    </scenes>
+</document>

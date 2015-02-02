@@ -11,10 +11,6 @@ import UIKit
 class LeftTableViewController: UITableViewController {
     
     var mainViewController: UIViewController!
-    var aboutUsVC: UIViewController!
-    var contactUsVC: UIViewController!
-    var infoVC: UIViewController!
-    var setVC: UIViewController!
     
     var menuArray : [String]!
 
@@ -34,8 +30,11 @@ class LeftTableViewController: UITableViewController {
         tableView.backgroundColor = UIColor.clearColor()
         
         //Hide empty cell
-        var backgroundView = UIView(frame: CGRectZero)
-        self.tableView.tableFooterView = backgroundView
+        //var backgroundView = UIView(frame: CGRectZero)
+        //self.tableView.tableFooterView = backgroundView
+        
+        //Hide empty cell and Last border of cell
+        tableView.tableFooterView = UIView(frame: CGRectMake(0, 0, self.tableView.frame.size.width, 1))
 
 
     }
@@ -62,8 +61,9 @@ class LeftTableViewController: UITableViewController {
         
         cell.textLabel?.text = menuArray[indexPath.row]
         cell.textLabel?.textColor = UIColor.whiteColor()
-        
+
         return cell
+        
         
         
     }
@@ -87,27 +87,27 @@ class LeftTableViewController: UITableViewController {
         case 1:
             let about = storyboard.instantiateViewControllerWithIdentifier("aboutus") as AboutUsViewController
             
-            self.aboutUsVC = UINavigationController(rootViewController: about)
-            self.slideMenuController()?.changeMainViewController(aboutUsVC, close: true)
+            mainViewController = UINavigationController(rootViewController: about)
+            self.slideMenuController()?.changeMainViewController(mainViewController, close: true)
             
         case 2:
             let contact = storyboard.instantiateViewControllerWithIdentifier("contactus") as ContactUsViewController
             
-            self.contactUsVC = UINavigationController(rootViewController: contact)
-            self.slideMenuController()?.changeMainViewController(contactUsVC, close: true)
+            mainViewController = UINavigationController(rootViewController: contact)
+            self.slideMenuController()?.changeMainViewController(mainViewController, close: true)
             
             
         case 3:
             let info = storyboard.instantiateViewControllerWithIdentifier("info") as InformationViewController
             
-            self.infoVC = UINavigationController(rootViewController: info)
-            self.slideMenuController()?.changeMainViewController(infoVC, close: true)
+            mainViewController = UINavigationController(rootViewController: info)
+            self.slideMenuController()?.changeMainViewController(mainViewController, close: true)
             
         case 4:
             let setting = storyboard.instantiateViewControllerWithIdentifier("setting") as SettingViewController
             
-            self.setVC = UINavigationController(rootViewController: setting)
-            self.slideMenuController()?.changeMainViewController(setVC, close: true)
+            mainViewController = UINavigationController(rootViewController: setting)
+            self.slideMenuController()?.changeMainViewController(mainViewController, close: true)
    
             
             

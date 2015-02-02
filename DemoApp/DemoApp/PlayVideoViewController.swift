@@ -24,19 +24,7 @@ class PlayVideoViewController: UIViewController {
         }
         
         
-    }
-    
-    override func shouldAutorotate() -> Bool {
-        if (UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeLeft ||
-            UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeRight ||
-            UIDevice.currentDevice().orientation == UIDeviceOrientation.Unknown) {
-                return false;
-        }
-        else {
-            return true;
-        }
-    }
-        
+    }        
     
     func startPlayingVideo(){
         
@@ -80,6 +68,14 @@ class PlayVideoViewController: UIViewController {
     }
     
     override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
+    override func supportedInterfaceOrientations() -> Int {
+        return Int(UIInterfaceOrientationMask.Portrait.rawValue)
+    }
+    
+    override func shouldAutorotate() -> Bool{
         return true
     }
     
