@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         myFirstLabel.textAlignment = .Center
         myFirstLabel.numberOfLines = 5
         myFirstLabel.frame = CGRectMake(15, 54, 300, 500)
+        
         myFirstButton.setTitle("✸", forState: .Normal)
         myFirstButton.setTitleColor(UIColor.blueColor(), forState: .Normal)
         myFirstButton.frame = CGRectMake(15, -50, 300, 500)

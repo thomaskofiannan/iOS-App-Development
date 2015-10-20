@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C7F5431AC458C100ACF1C7 /* mysong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52C7F5421AC458C100ACF1C7 /* mysong.mp3 */; };
 		52E9D6611A60020100796336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9D6601A60020100796336 /* AppDelegate.swift */; };
 		52E9D6631A60020100796336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E9D6621A60020100796336 /* ViewController.swift */; };
 		52E9D6661A60020100796336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E9D6641A60020100796336 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52C7F5421AC458C100ACF1C7 /* mysong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mysong.mp3; sourceTree = "<group>"; };
 		52E9D65B1A60020100796336 /* playSoundinSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playSoundinSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E9D65F1A60020100796336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E9D6601A60020100796336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		52E9D65D1A60020100796336 /* playSoundinSwift */ = {
 			isa = PBXGroup;
 			children = (
+				52C7F5421AC458C100ACF1C7 /* mysong.mp3 */,
 				52E9D6821A60047F00796336 /* administration.wav */,
 				52E9D6601A60020100796336 /* AppDelegate.swift */,
 				52E9D6621A60020100796336 /* ViewController.swift */,
@@ -198,6 +201,7 @@
 				52E9D6661A60020100796336 /* Main.storyboard in Resources */,
 				52E9D66B1A60020100796336 /* LaunchScreen.xib in Resources */,
 				52E9D6681A60020100796336 /* Images.xcassets in Resources */,
+				52C7F5431AC458C100ACF1C7 /* mysong.mp3 in Resources */,
 				52E9D6831A60047F00796336 /* administration.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				52E9D67C1A60020100796336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E9D67D1A60020100796336 /* Build configuration list for PBXNativeTarget "playSoundinSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				52E9D67F1A60020100796336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

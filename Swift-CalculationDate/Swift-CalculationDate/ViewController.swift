@@ -106,15 +106,17 @@ class ViewController: UIViewController {
         let months = calendar.components(.CalendarUnitMonth, fromDate: startDate, toDate: endDate, options: nil).month
         let years = calendar.components(.YearCalendarUnit, fromDate: startDate, toDate: endDate, options: nil).year
 
-        resultLabel.text = "Year: \(years) , Month: \(months) , Date: \(days)"
+        resultLabel.text = "Year: \(years) , Month: \(months) , Day: \(days)"
         
         
         // Result 2
         //To calculate two date
-        let components = calendar.components(.YearCalendarUnit | .MonthCalendarUnit | .DayCalendarUnit, fromDate: startDate, toDate: endDate, options: nil)
+        let components = calendar.components(.CalendarUnitYear | .CalendarUnitMonth | .CalendarUnitDay, fromDate: startDate, toDate: endDate, options: nil)
+        
         
         println(components)
         result2Label.text = "Year: \(components.year) Month: \(components.month) Day: \(components.day)"
+        
         
 
         

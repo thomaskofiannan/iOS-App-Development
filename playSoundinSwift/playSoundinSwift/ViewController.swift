@@ -14,10 +14,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var audioPlayer: AVAudioPlayer?
     
     //Func tell that player has finished playing an audio file
-    //func audioPlayerDidFinishPlaying(player: AVAudioPlayer!,
-       // successfully flag: Bool) {
-         //   println("Finished playing the song")
-    //}
+    func audioPlayerDidFinishPlaying(player: AVAudioPlayer!,
+        successfully flag: Bool) {
+            println("Finished playing the song")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +44,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             let mainBundle = NSBundle.mainBundle()
             
             // Find the location
-            let filePath = mainBundle.pathForResource("administration", ofType:"wav")
+            //let filePath = mainBundle.pathForResource("test", ofType:"mp3")
+            let filePath = mainBundle.pathForResource("mysong", ofType:"mp3")
             
             if let path = filePath{
                 let fileData = NSData(contentsOfFile: path)
